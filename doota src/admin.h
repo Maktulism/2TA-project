@@ -2,6 +2,9 @@
 #define ABOL_ADMIN_H
 #include "iostream"
 #include "User.h"
+#include "Teacher.h" // Include Teacher.h if necessary
+// Forward declaration of Class
+class Class;
 using namespace std;
 
 class Admin : public User {
@@ -46,6 +49,8 @@ public:
     }
 private:
 
+
+    void editStudent(string username);
     void createTeacher();
     void editDeleteTeacher();
     void deleteTeacher(string username);

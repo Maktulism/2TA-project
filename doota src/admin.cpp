@@ -363,7 +363,7 @@ void Admin::listClasses() {
         for (Class& c : classes) {
             cout << "Class ID: " << c.getId() << endl;
             cout << "Class Name: " << c.getName() << endl;
-            cout << "Teacher: " << c.getTeacher().getName() << endl;
+            cout << "Teacher: " << c.getTeacher()->getName() << endl;
             cout << "-----------------------" << endl;
         }
     }
