@@ -437,6 +437,58 @@ void Admin::deleteStudent(string username) {
         cerr << "Error: Student with username " << username << " not found!" << endl;
     }
 }
+void editStudent(string username) {
+  ifstream infile("students.json");
+  if (!infile.is_open()) {
+    std::cout << "Error opening student data file!" << std::endl;
+    return;
+  }
+  std::string studentData;
+  std::string line;
+  while (getline(infile, line)) {
+    studentData += line + "\n";
+  }
+  infile.close();
+  if (studentData.find("\"" + username + "\"") == std::string::npos) {
+    std::cout << "Student with username " << username << " not found." << std::endl;
+    return;
+  }
+  std::string newName, newStudentID, newPhoneNumber;
+  std::cout << "Enter new name (leave blank for no change): ";
+  std::getline(std::cin, newName);
+  std::cout << "Enter new student ID (leave blank for no change): ";
+  std::getline(std::cin, newStudentID);
+  std::cout << "Enter new phone number (leave blank for no change): ";
+  std::getline(std::cin, newPhoneNumber);
+  bool found = false;
+  std::string updatedData;
+  std::istringstream iss(studentData);
+  while (getline(iss, line)) {
+    if (line.find("\"" + username + "\"") != std::string::npos) {
+      if (!newName.empty()) {
+        line = line.replace(line.find("name") + 7, username.length(), newName);
+      }
+      if (!newStudentID.empty()) {
+        line = line.replace(line.find("student_id") + 13, username.length(), newStudentID);
+      }
+      if (!newPhoneNumber.empty()) {
+        line = line.replace(line.find("phone_number") + 15, username.length(), newPhoneNumber);
+      }
+      found = true;
+    }
+    updatedData += line + "\n";
+  }
+  if (!found) {
+    std::cout << "Error: Could not update student information." << std::endl;
+    return;
+  }
+  ofstream outfile("students_updated.json");
+  outfile << updatedData;
+  outfile.close();
+  remove("students.json");
+  rename("students_updated.json", "students.json");
+  std::cout << "Student information updated successfully." << std::endl;
+}
 void Admin::editDeleteStudent() {
     string username;
     cout << "Enter student username: ";
