@@ -1,0 +1,6 @@
+#include "user.h"
+#include "admin.h"
+#include "instructor.h"
+#include "student.h"
+#include "course.h"
+#include "assignment.h"

@@ -1,0 +1,3 @@
+C:/Users/TUF/Documents/GitHub/2TA-project/trash folder/cmake-build-debug/CMakeFiles/trash_folder.dir
+C:/Users/TUF/Documents/GitHub/2TA-project/trash folder/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TUF/Documents/GitHub/2TA-project/trash folder/cmake-build-debug/CMakeFiles/rebuild_cache.dir

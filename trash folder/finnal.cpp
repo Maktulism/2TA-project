@@ -1323,34 +1323,39 @@ void announcements() {
 };
 int main() {
   Teacher* teacherPtr = nullptr;
-Student* studentPtr = nullptr; 
+Student* studentPtr = nullptr;
+string admin1("ADMIN");
+    string teacher("TEACHER");
+    string student("STUDENT");
+    UserType userType;
+
   Admin admin("abolfazl", "admin", "password123", "1234567890");
   while (true) {
-    UserType userType;
-    cout << "**Login**" << endl;
-    cout << "1. Login as Admin" << endl;
-    cout << "2. Login as Teacher" << endl;
-    cout << "3. Login as Student" << endl;
-    cout << "4. Exit" << endl;
-    int choice;
-    cin >> choice;
-    switch (choice) {
-      case 1:
-        userType = ADMIN;
-        break;
-      case 2:
-        userType = TEACHER;
-        break;
-      case 3:
-        userType = STUDENT;
-        break;
-      case 4:
-        cout << "Exiting..." << endl;
-        return 0;
-      default:
-        cout << "Invalid choice!" << endl;
-        continue;
-    }
+      cout << "**Login**" << endl;
+      cout << "1. Login as Admin" << endl;
+      cout << "2. Login as Teacher" << endl;
+      cout << "3. Login as Student" << endl;
+      cout << "4. Exit" << endl;
+      int choice;
+      cin >> choice;
+      switch (choice) {
+          case 1:
+              userType = ADMIN;
+              break;
+          case 2:
+              userType = TEACHER;
+              break;
+          case 3:
+              userType = STUDENT;
+              break;
+          case 4:
+              cout << "Exiting..." << endl;
+              return 0;
+          default:
+              cout << "Invalid choice!" << endl;
+              continue;
+      }
+  }
     string username, password;
     while (true) {
       cout << "Enter username: ";
@@ -1379,5 +1384,4 @@ switch (userType) {
 }
   return 0;
 }
-  }
   }
