@@ -1,6 +1,11 @@
 # ninja log v5
-8	377	7373317509549590	CMakeFiles/doota_restart.dir/main.cpp.obj	fc51973b1aaf5eb5
-2	705	7373317512818817	CMakeFiles/doota_restart.dir/base.cpp.obj	86b3d87131ab37c3
-705	922	7373317514963714	doota_restart.exe	37771fd343e1ad75
-5	367	7373321085074670	CMakeFiles/doota_restart.dir/main.cpp.obj	fc51973b1aaf5eb5
-367	487	7373321086224820	doota_restart.exe	37771fd343e1ad75
+17	499	7375687731839614	CMakeFiles/dooootaaaa.dir/main.cpp.obj	bd4735ad10ba42c8
+16	1043	7375751397712906	CMakeFiles/dooootaaaa.dir/Student.cpp.obj	e433d926bc1ddb05
+18	1054	7375751398019385	CMakeFiles/dooootaaaa.dir/Tab.cpp.obj	96a78034d1076357
+13	541	7375687732343730	CMakeFiles/dooootaaaa.dir/Course.cpp.obj	f45e132afff7b7ed
+35	420	7375568808413285	CMakeFiles/dooootaaaa.dir/UniversityMember.cpp.obj	2948481840e4c1ba
+12	1044	7375751397759159	CMakeFiles/dooootaaaa.dir/Administrator.cpp.obj	d9d9d633169bcb48
+19	541	7375687732323728	CMakeFiles/dooootaaaa.dir/Mark.cpp.obj	c8427dbee4f14c1d
+22	542	7375687732449200	CMakeFiles/dooootaaaa.dir/Professor.cpp.obj	d7fb4812422e0325
+1054	1124	7375751398676289	dooootaaaa.exe	9a7b20ae4917ef06
+22	56	7375751388039830	CMakeFiles/dooootaaaa.dir/Assignment.cpp.obj	fbd8e017e7ef94c9

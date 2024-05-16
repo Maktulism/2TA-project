@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/TUF/Desktop/quera/doota restart/cmake-build-debug"
+			"value" : "c:/Users/TUF/Documents/GitHub/2TA-project/doota restart/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/TUF/Desktop/quera/doota restart/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/TUF/Documents/GitHub/2TA-project/doota restart/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/TUF/Desktop/quera/doota restart"
+			"value" : "C:/Users/TUF/Documents/GitHub/2TA-project/doota restart"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/doota_restart"
+			"value" : "C:/Program Files (x86)/dooootaaaa"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "doota_restart"
+			"value" : "dooootaaaa"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1282,7 +1282,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "doota_restart_BINARY_DIR",
+			"name" : "dooootaaaa_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1291,10 +1291,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/TUF/Desktop/quera/doota restart/cmake-build-debug"
+			"value" : "C:/Users/TUF/Documents/GitHub/2TA-project/doota restart/cmake-build-debug"
 		},
 		{
-			"name" : "doota_restart_IS_TOP_LEVEL",
+			"name" : "dooootaaaa_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1306,7 +1306,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "doota_restart_SOURCE_DIR",
+			"name" : "dooootaaaa_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/TUF/Desktop/quera/doota restart"
+			"value" : "C:/Users/TUF/Documents/GitHub/2TA-project/doota restart"
 		}
 	],
 	"kind" : "cache",
