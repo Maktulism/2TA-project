@@ -1,4 +1,3 @@
-# SMART-system
 Sayed Abolfazl Hussaini 40215233
 CEIUT
 dr.Nicknadaf midterm project
@@ -18,6 +17,8 @@ Professor:
 1. Viewing his courses
 2. Adding marks of the students
 3. Displaying the marks
+4. creating assigment
+5. grade assigment
 
 Student:
 1. Registering to the course
@@ -25,6 +26,8 @@ Student:
 3. Viewing all the courses
 4. Searching for a course
 5. Seeing the marks
+6. view assigments
+7. submit assigment
 
 Registration/login is available only for professors and students who were added to the system by the Administrator.
 
