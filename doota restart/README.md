@@ -29,5 +29,5 @@ Student:
 Registration/login is available only for professors and students who were added to the system by the Administrator.
 
 To login into the system as an Administrator use the following data:
-username: sabina
-password: sabina
+username: admin
+password: password123
