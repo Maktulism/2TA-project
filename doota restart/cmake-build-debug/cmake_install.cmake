@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/TUF/Documents/GitHub/2TA-project/doota restart
+# Install script for directory: C:/Users/TUF/Desktop/quera/dooootaaaa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/TUF/Documents/GitHub/2TA-project/doota restart/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/TUF/Desktop/quera/dooootaaaa/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

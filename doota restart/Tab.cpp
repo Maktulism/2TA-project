@@ -214,7 +214,8 @@ void Tab::studentTab()
          << "3.See all the courses\n\n\t\t"
          << "4.Search for a course\n\n\t\t"
          << "5.See the marks\n\n"
-         << "5.Submit assigment\n\n"
+         << "5.View assignments\n\n"
+         << "7.Submit assigment\n\n"
          << "\t\t7.Back to the main menu\n";
     cout << "\n\t\tYour operation : ";
     cin >> operation;
@@ -309,6 +310,22 @@ void Tab::studentTab()
     }
         case 6: {
             system("cls");
+            Administrator admin;
+            cout << "\n\t\t******* VIEW ASSIGNMENTS TAB *******\n\n";
+            admin.viewAssignments();
+            cout << "\n\t\t>>Please Choose Your Status\n\n";
+            cout << "\t\t1.Go back to the student's main menu\n\n";
+            cout << "\t\t2.Exit from the administrator\n\n";
+            cout << "\t\t3.Exit from the system\n\n";
+            cout << "\t\tYour status : ";
+            int status;
+            cin >> status;
+            student.Status(status);
+            break;
+        }
+
+        case 7: {
+            system("cls");
             string assignmentTitle;
             cout << "\n\t\t******* SUBMIT ASSIGNMENT TAB *******\n\n";
             cout << "\t\tEnter assignment title: ";
@@ -326,7 +343,7 @@ void Tab::studentTab()
             break;
         }
 
-        case 7:
+        case 8:
     {
         system("cls");
         tab.main_menu();

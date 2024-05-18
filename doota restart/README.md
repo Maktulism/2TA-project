@@ -1,7 +1,8 @@
+# SMART-system
 Sayed Abolfazl Hussaini 40215233
 CEIUT
 dr.Nicknadaf midterm project
-https://github.com/Maktulism/2TA-project
+
 
 
 This is the University management system created by using File Handling and 4 main pillars of Object-Oriented programming.
@@ -17,8 +18,6 @@ Professor:
 1. Viewing his courses
 2. Adding marks of the students
 3. Displaying the marks
-4. creating assigment
-5. grade assigment
 
 Student:
 1. Registering to the course
@@ -26,11 +25,9 @@ Student:
 3. Viewing all the courses
 4. Searching for a course
 5. Seeing the marks
-6. view assigments
-7. submit assigment
 
 Registration/login is available only for professors and students who were added to the system by the Administrator.
 
 To login into the system as an Administrator use the following data:
-username: admin
-password: password123
+username: sabina
+password: sabina
